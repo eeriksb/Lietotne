@@ -9,7 +9,10 @@ namespace Receptes
         {
             InitializeComponent();
         }
-        private void PressedButton(object sender, EventArgs e)
+
+       private async void ButtonOnClicked(object sender, EventArgs e) {
+            await Navigation.PushAsync(new Pamat_info());
+        }
 
     }
 }
