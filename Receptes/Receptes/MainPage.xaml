@@ -5,7 +5,7 @@
              x:Class="Receptes.MainPage">
   <StackLayout>
   <Label x:Name="Lattelecom" Text="Latttelecom" HorizontalOptions="Start" VerticalOptions="Start"></Label>
-  <Button Text="Lattelecom"></Button>
+  <Button Text="Lattelecom" HorizontalOptions="Start" VerticalOptions="Start"></Button>
   <Button Text="Komanda" VerticalOptions="Center" HorizontalOptions="Center"></Button>
   <Button Text="Kontakti" VerticalOptions="End" HorizontalOptions="End"></Button>
   </StackLayout>
