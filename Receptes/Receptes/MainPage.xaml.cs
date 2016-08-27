@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Receptes
@@ -13,5 +9,7 @@ namespace Receptes
         {
             InitializeComponent();
         }
+        private void PressedButton(object sender, EventArgs e)
+
     }
 }
