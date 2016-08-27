@@ -13,5 +13,10 @@ namespace Receptes
         {
             InitializeComponent();
         }
+
+       private async void ButtonOnClicked(object sender, EventArgs e) {
+            await Navigation.PushAsync(new Pamat_info());
+        }
+
     }
 }
