@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Receptes"
              x:Class="Receptes.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms."
+  <Label Text="sveiki"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
 
